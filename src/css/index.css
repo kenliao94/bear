@@ -1,0 +1,15 @@
+/* filename: index.css */
+/* This code defines the default styles for the body and code elements in a web page, including setting the margin to 0, specifying a list of fonts to be used as fallbacks, and enabling antialiasing for fonts on Apple and Mozilla browsers. The font family for code elements is also specified with a list of fonts to be used as fallbacks. */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
