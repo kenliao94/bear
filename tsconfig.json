@@ -1,26 +1,27 @@
 {
+  // Configuration file for the TypeScript compiler.
   "compilerOptions": {
-    "target": "es5",
-    "lib": [
+    "target": "es5", // The target version of the ECMAScript specification that the generated JavaScript code should conform to.
+    "lib": [ // Declaration files for the JavaScript standard library as well as DOM APIs.
       "dom",
       "dom.iterable",
       "esnext"
     ],
-    "allowJs": true,
-    "skipLibCheck": true,
+    "allowJs": true, // Allow JavaScript files to be imported.
+    "skipLibCheck": true, // Skip type-checking of declaration files.
     "esModuleInterop": true,
-    "allowSyntheticDefaultImports": true,
-    "strict": true,
-    "forceConsistentCasingInFileNames": true,
-    "noFallthroughCasesInSwitch": true,
-    "module": "esnext",
-    "moduleResolution": "node",
-    "resolveJsonModule": true,
-    "isolatedModules": true,
-    "noEmit": true,
-    "jsx": "react-jsx"
+    "allowSyntheticDefaultImports": true, // Allow default imports from modules with no default export.
+    "strict": true, // Enable all strict type-checking options.
+    "forceConsistentCasingInFileNames": true, // Disallow inconsistently-cased references to the same file.
+    "noFallthroughCasesInSwitch": true, // Report errors for fallthrough cases in switch statements.
+    "module": "esnext", // Specify the module code generation.
+    "moduleResolution": "node", // Set the module resolution strategy.
+    "resolveJsonModule": true, // Allow import of JSON files.
+    "isolatedModules": true, // Ensure that each file can be transpiled independently.
+    "noEmit": true, // Do not emit output.
+    "jsx": "react-jsx" // Enable generation of React-friendly JSX source code.
   },
   "include": [
-    "src"
+    "src" // Include only the src folder for the compilation process.
   ]
 }
